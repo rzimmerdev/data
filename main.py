@@ -70,7 +70,3 @@ data_manager.normalize()
 
 print(data_manager.target)
 print(regressor.predict_features(data_manager.features))
-
-#pyplot.plot([x[0] for x in sales], final)
-#pyplot.plot([x[0] for x in sales], regressor.predict_features(sales), 'r')
-#pyplot.show()
